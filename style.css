@@ -1,0 +1,59 @@
+.full{
+    background-color:pink;
+}
+.heading{
+    color: maroon;
+    text-align:center;
+}
+.col-md-3 col-xs-3{
+    margin-left: 20vh;
+}
+.row{
+    align-content: center;
+}
+#imp{
+    margin-right:0%;
+}
+.heading{
+    text-align:center;
+    color:maroon;
+}
+.head2{
+    text-align: center;
+    color:maroon;
+}
+    
+#cy {
+    width: 50%;
+    height: 80%;
+    display: block;
+    border: 2px solid black;
+    margin-left: 50%;
+}
+
+.Options-graph>* {
+    margin: 5px auto;
+}
+.Options{
+    margin-right: 0%;
+}
+
+.edgeInList>div>input {
+    width: 20%;
+    margin: 5px auto;
+}
+
+.panel {
+    border: 2px solid orange;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px auto;
+}
+#main{
+    margin-left: 0
+}
+
+.button {
+    background-color: pink !important;
+}
+

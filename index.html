@@ -1,0 +1,70 @@
+<html>
+<head>
+    
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Assignment</title>
+</head>
+<body>
+	<div class="full">
+		<div class="heading">
+    <h1>
+    BFS,DFS and MST Animations</h1>
+</div>
+    
+            <div class="col-md-3 col-xs-3" style="border: 2px maroon;padding: 0.4%;">
+           
+                <div class="main">
+                    <h3>Select your choice</h3>
+                    <div class="Structure">
+                        
+                        <select name="algorithmUsed" id="algorithmUsed">
+                                            <option value="BFS">BFS </option>
+                                            <option value="DFS">DFS </option>
+                                            <option value="MST">MST </option>
+                                        </select>
+
+                        <input type="text" name="startIndex" id="startIndex" placeholder="Start vertex ">
+
+                        <button id='submit' class="button" onclick="runAlgo()">submit</button>
+                    </div>
+                </div>
+                <hr>
+                <div id="main">
+                <div class="Optiions">
+                    <h2>Create Graph</h2>
+                    <div class="Options-graph" id="imp">
+                        <input type="number" min="0" name="numVert" placeholder="Number of vertices" id="numVert">
+                        <div class="adjList">
+
+                            <button class="button" onclick="addEdgeinList()">Add an Edge</button>
+                            <div class='list'>
+
+                            </div>
+                            <input type="button" class="button" style="margin: 5px auto;" value='Generate Graph' onclick="genFromEdgeList()">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+       <div class="head2">
+        <h2>Your Graph</h2>
+    </div>
+   
+<div class="row">
+                    <div class="col-md-9">
+                        <div id="cy" style="min-height: 80vh !important;">
+                        </div>
+                    </div>
+                </div>
+    <script src='cytoscape.min.js'></script>
+    <script src='index.js'></script>
+
+</div>
+</body>
+</html>
