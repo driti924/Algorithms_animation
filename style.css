@@ -4,6 +4,7 @@
 .heading{
     color: maroon;
     text-align:center;
+    font-family: "Times New Roman", Times, serif;
 }
 .col-md-3 col-xs-3{
     margin-left: 20vh;
@@ -11,24 +12,26 @@
 .row{
     align-content: center;
 }
+
 #imp{
     margin-right:0%;
 }
-.heading{
-    text-align:center;
-    color:maroon;
-}
+
 .head2{
     text-align: center;
     color:maroon;
+    font-family: "Times New Roman", Times, serif;
 }
-    
+ 
+ .row{
+    align-content:center;
+ }   
 #cy {
     width: 50%;
-    height: 80%;
+    height: 60%;
     display: block;
     border: 2px solid black;
-    margin-left: 50%;
+    margin-left: 45%;
 }
 
 .Options-graph>* {
@@ -56,4 +59,3 @@
 .button {
     background-color: pink !important;
 }
-
